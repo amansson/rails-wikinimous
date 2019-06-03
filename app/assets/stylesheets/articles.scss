@@ -1,0 +1,27 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.container {
+  margin: 0 auto;
+  width: 800px;
+}
+
+h2 a {
+  color: #66abca;
+  text-decoration: none;
+}
+
+.btn-back {
+  color: rgb(84, 179, 84);
+  text-decoration: none;
+}
+
+.btn-edit {
+  color: rgb(182, 131, 55);
+  text-decoration: none;
+}
+
+.btn-delete {
+  color: rgb(179, 62, 62);
+  text-decoration: none;
+}

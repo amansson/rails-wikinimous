@@ -1,0 +1,10 @@
+<div class="container">
+  <h2><%= @article.title %></h2>
+  <p><%= @article.content %></p>
+  
+  <%= link_to 'Back', articles_path, class: 'btn-back'%> | 
+  <%= link_to 'Edit', edit_article_path(@article), class: 'btn-edit' %> | 
+  <%= link_to "Delete", article_path(@article), class: 'btn-delete',
+        method: :delete,
+        data: { confirm: "Are you sure?" } %>
+</div>
